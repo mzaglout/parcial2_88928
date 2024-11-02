@@ -6,7 +6,7 @@ export const Cabecera = () => {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/inicio"><img src="public/IconoMenubar.webp" alt="Descripción de la imagen" width="50" height="50"/>
+          <a className="navbar-brand" href="/inicio"><img src="/IconoMenubar.webp" alt="Descripción de la imagen" width="50" height="50"/>
           </a>
           <button
             className="navbar-toggler"
@@ -50,19 +50,19 @@ export const Cabecera = () => {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="Eleadm">
+                    <a className="dropdown-item" href="/Eleadm">
                       Administrar Equipos
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="ElectronicoListar">
+                    <a className="dropdown-item" href="/ElectronicoListar">
                       listar Electronicos
                     </a>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="Quien">
+                <a className="nav-link" href="/Quien">
                   Quienes somos
                 </a>
               </li>
